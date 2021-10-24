@@ -18,8 +18,8 @@ public class Anagram {
         String second = str2;
         second = second.replaceAll("[^A-Za-zА-Яа-я0-9]", "");
         char[] a = first.toLowerCase().toCharArray();
-        Arrays.sort(a);
         char[] b = second.toLowerCase().toCharArray();
+        Arrays.sort(a);
         Arrays.sort(b);
         if (a.length != b.length) {
             System.out.println("не анаграмма");
