@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class CapitalLetter {
     public static void main(String[] args) {
+        cap();
+    }
+    public static void cap() {
         Scanner c = new Scanner(System.in);
         System.out.println("введите выражение");
         String str = c.nextLine();
