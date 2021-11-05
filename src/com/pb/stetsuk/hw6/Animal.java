@@ -1,5 +1,7 @@
 package com.pb.stetsuk.hw6;
 
+import java.util.Objects;
+
 public abstract class Animal {
     private String food;
     private String location;
@@ -42,8 +44,8 @@ public abstract class Animal {
 
         Animal animal = (Animal) a;
 
-        if (food != null ? !food.equals(animal.food) : animal.food != null) return false;
-        return location != null ? location.equals(animal.location) : animal.location == null;
+        if (!Objects.equals(food, animal.food)) return false;
+        return Objects.equals(location, animal.location);
     }
 
     public int hashCode() {
