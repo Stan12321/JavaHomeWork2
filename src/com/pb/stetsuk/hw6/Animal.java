@@ -30,9 +30,13 @@ public abstract class Animal {
         this.location = location;
     }
 
-    public abstract void eat();
+    public void eat() {
+        System.out.println("еда");
+    }
 
-    public abstract String makeNoise();
+    public String makeNoise() {
+       return "звук";
+    }
 
     public void sleep() {
         System.out.println("Животное спит.");
