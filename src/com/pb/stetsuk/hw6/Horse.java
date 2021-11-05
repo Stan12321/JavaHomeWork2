@@ -5,9 +5,6 @@ import java.util.Objects;
 public class Horse extends Animal {
     private String color;
 
-    public Horse() {
-    }
-
     public Horse(String food, String location) {
         super(food, location);
     }

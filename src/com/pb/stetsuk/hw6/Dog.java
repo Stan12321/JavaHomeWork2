@@ -5,9 +5,6 @@ import java.util.Objects;
 public class Dog extends Animal {
     private String name;
 
-    public Dog() {
-    }
-
     public Dog(String food, String location) {
         super(food, location);
     }
@@ -20,17 +17,14 @@ public class Dog extends Animal {
         this.name = name;
     }
 
-    @Override
     public void eat() {
         System.out.println("Собака ест.");
     }
 
-    @Override
     public String makeNoise() {
         return "Гав";
     }
 
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Dog)) return false;
@@ -41,14 +35,12 @@ public class Dog extends Animal {
         return Objects.equals(name, dog.name);
     }
 
-    @Override
     public int hashCode() {
         int result = super.hashCode();
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
     }
 
-    @Override
     public String toString() {
         return "Dog food " + getFood() +", location " + getLocation();
     }
