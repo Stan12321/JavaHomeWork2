@@ -1,5 +1,7 @@
 package com.pb.stetsuk.hw6;
 
+import java.util.Objects;
+
 public class Dog extends Animal {
     private String name;
 
@@ -36,7 +38,7 @@ public class Dog extends Animal {
 
         Dog dog = (Dog) o;
 
-        return name != null ? name.equals(dog.name) : dog.name == null;
+        return Objects.equals(name, dog.name);
     }
 
     @Override
