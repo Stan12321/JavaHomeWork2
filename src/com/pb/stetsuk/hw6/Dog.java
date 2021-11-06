@@ -42,6 +42,6 @@ public class Dog extends Animal {
     }
 
     public String toString() {
-        return "Dog food " + getFood() +", location " + getLocation();
+        return "Dog, food " + getFood() +", location " + getLocation();
     }
 }

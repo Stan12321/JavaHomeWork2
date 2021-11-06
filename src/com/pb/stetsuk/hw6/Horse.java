@@ -42,6 +42,6 @@ public class Horse extends Animal {
     }
 
     public String toString() {
-        return "Horse food " + getFood() + ", location " + getLocation();
+        return "Horse, food " + getFood() + ", location " + getLocation();
     }
 }

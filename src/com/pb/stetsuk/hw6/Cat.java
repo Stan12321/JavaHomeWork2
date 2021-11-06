@@ -42,6 +42,6 @@ public class Cat extends Animal {
     }
 
     public String toString() {
-        return "Cat food " + getFood() + ", location " + getLocation();
+        return "Cat, food " + getFood() + ", location " + getLocation();
     }
 }
