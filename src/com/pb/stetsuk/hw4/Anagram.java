@@ -29,10 +29,10 @@ public class Anagram {
         System.out.println("введите строку2: ");
         String str2 = scan.nextLine();
 
-            if (anagram(str1, str2)) {
-                System.out.println("не анаграмма");
-            } else {
-                System.out.println("анаграмма");
-            }
+        if (anagram(str1, str2)) {
+            System.out.println("анаграмма");
+        } else {
+            System.out.println("не анаграмма");
         }
+    }
 }

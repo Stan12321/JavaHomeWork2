@@ -30,8 +30,8 @@ public class Array {
             }
         }
 
-           System.out.println("После: " + Arrays.toString(numbers));
-            System.out.println("Сума элементов: " + sum);
-            System.out.println("Положительных элементов: " + pos);
-}
+        System.out.println("После: " + Arrays.toString(numbers));
+        System.out.println("Сума элементов: " + sum);
+        System.out.println("Положительных элементов: " + pos);
+    }
 }
