@@ -32,7 +32,7 @@ public class Atelier {
     }
 
     static void dressMan(Clothes[] clothes) {
-        for (Clothes i : clothes) {
+        for (Clothes i: clothes) {
             if (i instanceof ManClothes) {
                 ((ManClothes) i).dressMan();
             }
@@ -40,8 +40,8 @@ public class Atelier {
         }
     }
     static void dressWoman(Clothes[] clothes){
-        for (Clothes i : clothes){
-            if(i instanceof  WomanClothes){
+        for (Clothes i: clothes){
+            if(i instanceof WomanClothes){
                 ((WomanClothes) i).dressWoman();
             }
         }
