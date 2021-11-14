@@ -25,8 +25,6 @@ public class Atelier {
         System.out.println("Мужская одежда: ");
         dressMan(clothes);
 
-        System.out.println();
-
         System.out.println("Женская одежда: ");
         dressWoman(clothes);
     }
