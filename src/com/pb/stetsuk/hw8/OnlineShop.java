@@ -34,7 +34,7 @@ public class OnlineShop {
 
 
             System.out.println(" ");
-            System.out.println("Вход в аккаунт.");
+            System.out.println("Вход в аккаунт: ");
             count = 0;
             while (true) {
                 count++;
