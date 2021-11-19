@@ -14,7 +14,7 @@ public class OnlineShop {
         while (true) {
             count++;
             if (count > 3) {
-                System.out.println("Превышено количество попыток ");
+                System.out.println("Превышено количество попыток");
                 System.exit(1);
             }
             System.out.println("Введите Ваш логин. Логин должен быть от 5 до 20 символов, допускаются латинские буквы и цифры: ");
